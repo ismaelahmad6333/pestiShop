@@ -1,0 +1,46 @@
+@charset "UTF-8";
+@import url("//fonts.cdnfonts.com/css/permanent-marker");
+@import url("//fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+@media (max-width: 968px) {
+  html {
+    font-size: 9px;
+  }
+}
+@media (max-width: 550px) {
+  html {
+    font-size: 7px;
+  }
+}
+
+body {
+  font-family: Poppins, sans-serif;
+  background-color: #151515;
+  width: 100%;
+  color: #f4f4f4;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-weight: 600;
+}
+
+a {
+  text-decoration: none;
+}
+a:link,
+a:visited,
+a:focus,
+a:active {
+  color: #151515;
+}
